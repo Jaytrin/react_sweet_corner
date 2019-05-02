@@ -1,0 +1,32 @@
+@font-face {
+    font-family: fancy;
+    src: url('../../assets/fonts/Allura-Regular.ttf');
+}
+
+
+.header-container{
+    text-align: center;
+
+    .nav-header{
+        background-image: url('../../assets/images/header.png');
+        height: 88px;
+    }
+    
+    .header-img{
+        background-image: url('../../assets/images/logo.png');
+        background-position: center; 
+        background-repeat: no-repeat;
+        height: 192px;
+    }
+
+    .header-bottom{
+        height: 24px;
+        background-color: #754b23
+    }
+
+    .header-title{
+        font-family: fancy;
+        font-weight: 200;
+    }
+
+}
