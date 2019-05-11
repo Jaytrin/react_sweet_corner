@@ -1,0 +1,37 @@
+.footer{
+    background-color: #09B2B0;
+    height: 40px;
+    color:white;
+    text-align: center;
+
+    .footer-dots{
+        height: 25px;
+        margin-left: 35px;
+        margin-right: 25%;
+    }
+
+    img{
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    p{
+        display: inline-block;
+    }
+
+    .footer-copyright{
+        margin-left: 20px;
+        font-size: .75em;
+    }
+
+    .footer-phone{
+        font-size: .75em;
+        margin-right: 35px;
+    }
+
+
+    .phone-icon{
+        margin-left: 25%;
+        margin-right: 10px;
+    }
+}
