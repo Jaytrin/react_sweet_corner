@@ -6,10 +6,16 @@ import Phone from '../../assets/images/phone.png';
 export default props => {
     return(
         <div className="footer">
-            <img className="footer-dots" src={FooterDots} alt="dots"/>
-            <p className="footer-copyright center">Copyright © 2014 Sweet Corner. All rights reserved.</p>
-            <img className="phone-icon" src={Phone} alt="phone-icon"/>
-            <p className="footer-phone">800 264-2099</p>
+            <div className="footer-left">
+                <img className="footer-dots" src={FooterDots} alt="dots"/>
+            </div>
+            <div className="footer-right">
+                <img className="phone-icon" src={Phone} alt="phone-icon"/>
+                <p className="footer-phone">800 264-2099</p>
+            </div>
+            <div className="footer-center">
+                <p className="footer-copyright">Copyright © 2014 Sweet Corner. All rights reserved.</p>
+            </div>
         </div>
     )
 }
