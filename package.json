@@ -15,11 +15,14 @@
     "url": "https://github.com/Jaytrin/react_sweet_corner.git"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "prop-types": "^15.7.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",
     "react-router-dom": "^5.0.0",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "redux-form": "^8.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
